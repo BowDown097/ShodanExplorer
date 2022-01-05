@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="app-header">
+            <span id="title">Shodan Explorer</span>
+            <div class="apiKey">
+                <input type="text" id="keyInput" size="15" placeholder="API Key"/>
+            </div>
+        </header>
+        <div class="container">
+            <input text="text" id="searchInput" size="25" placeholder="Search Query"/>
+            <div id="results"></div>
+            <div id="pageFunny">
+                <span id="resultsCount"></span>
+                <button class="navButton" id="prev">Previous</a>
+                <button class="navButton" id="next">Next</a>
+                <button class="navButton" id="jump">Jump</a>
+            </div>
+        </div>
+        <script src="renderer.js"></script>
+    </body>
+</html>

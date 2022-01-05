@@ -1,0 +1,58 @@
+body 
+{
+    background-color: #1d1d1d;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input 
+{
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.app-header 
+{
+    background-color: cornflowerblue;
+    color: #fff;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.apiKey 
+{
+    float: right;
+}
+
+.container 
+{
+    padding-top: 30px;
+}
+
+.navButton
+{
+    background: none;
+    border: 1px solid #bbb;
+    color: white;
+    margin-right: 2px;
+}
+
+#results
+{
+    color: white;
+    height: 70%;
+    overflow: auto;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+#resultsCount
+{
+    color: white;
+}
+
+#searchInput 
+{
+    height: 25px;
+}
